@@ -48,11 +48,12 @@ hkdr_data$pred_risk <- 1 - predict(cox_model, type = "survival", newdata = hkdr_
 # compute the Brier score in HKDB cohort
 
 brier_score1 <- mean((hkdb_data$pred_risk - hkdb_data$AFIB_END)^2)
-
+print(brier_score1)
 
 # compute the Brier score in HKDR cohort
 
 brier_score2 <- mean((hkdr_data$pred_risk - hkdr_data$AFIB_END)^2)
+print(brier_score2)
 
 
 
