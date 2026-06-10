@@ -2,7 +2,7 @@
 
 
 ############################################################################################
-#### Test for the proportional hazards assumption using the Schoenfeld residuals test 
+#### Assess the proportional hazards assumption using the Schoenfeld residuals test 
 ############################################################################################
 
 #### load the required library
